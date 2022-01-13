@@ -18,7 +18,7 @@ export default () => (
     <h1>Fundamento React</h1>
 
     <div className="Cards">
-      <Card titulo="#11 - Contador " color="#660000">
+      <Card titulo="#11 - Contador " color="#f1c232">
         <Mega qtdNumeros={10}></Mega>
       </Card>
       <Card titulo="#10 - Contador " color="#660000">
