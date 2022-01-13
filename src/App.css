@@ -1,4 +1,12 @@
-.App{
-    display: flex;
-    flex-wrap: wrap;
+.App {
+  display: flex;
+  flex-direction: column;
+  background: #3a7bd5;
+  background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);
+  background: linear-gradient(to right, #3a6073, #3a7bd5);
+}
+
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
 }
