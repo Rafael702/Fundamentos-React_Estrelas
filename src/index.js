@@ -1,9 +1,9 @@
 import "./index.css";
 import React from "react";
 import ReactDom from "react-dom";
-import Primeiro from "./componentes/Primeiro";
+import App from "./App.jsx";
 
 ReactDom.render(
-<Primeiro></Primeiro>,
-document.getElementById("root")
+ <App></App>,
+  document.getElementById("root")
 );
