@@ -15,7 +15,7 @@ import Mega from "./componentes/mega/Mega";
 
 export default () => (
   <div className="App">
-    <h1>Fundamento React</h1>
+    <h1>Fundamentos de React</h1>
 
     <div className="Cards">
       <Card titulo="#11 - Contador " color="#f1c232">
@@ -58,7 +58,7 @@ export default () => (
         <ComParametro titulo="Esse é o titulo" subtitulo="Esse é o subtitulo" />
       </Card>
 
-      <Card titulo="#1 - rimeiro Componente" color="#cae3fa">
+      <Card titulo="#1 - Primeiro Componente" color="#cae3fa">
         <Primeiro></Primeiro>
       </Card>
 
