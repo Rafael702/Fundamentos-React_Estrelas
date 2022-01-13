@@ -1,16 +1,16 @@
 import react from "react";
-import Primeiro from "./componentes/Primeiro";
-import ComParametro from "./componentes/ComParametro";
-import ComFilhos from "./componentes/ComFilhos";
+import Primeiro from "./componentes/basicos/Primeiro";
+import ComParametro from "./componentes/basicos/ComParametro";
+import ComFilhos from "./componentes/basicos/ComFilhos";
 import Card from "./componentes/Layout/Card";
-import Repeticao from "./componentes/Repeticao";
-import Condicional from "./componentes/Condicional";
-import CondicionalComIf from "./componentes/CondicionalComIf";
+import Repeticao from "./componentes/basicos/Repeticao";
+import Condicional from "./componentes/basicos/Condicional";
+import CondicionalComIf from "./componentes/basicos/CondicionalComIf";
 import "./App.css";
 
 
 export default () => (
-  <div>
+  <div className="App">
     <Card titulo="#6 - Condicional v2">
       <CondicionalComIf numero={11}></CondicionalComIf>
     </Card>
